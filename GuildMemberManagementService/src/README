@@ -1,0 +1,55 @@
+ Guild Member Management System (GMS)
+
+A clean Java console application to manage and rank members of a fantasy guild.
+Built entirely using Object-Oriented Programming (OOP) principles.
+
+---
+
+ Features
+
+- Add and remove members from the guild
+- Display all guild members with their details
+- Calculate and display years of service based on join date
+- Rank members based on number of missions completed:
+  - **Rookie**: 0–9 missions
+  - **Veteran**: 10–19 missions
+  - **Elite**: 20+ missions
+- Sort ranked members by:
+  1. **Rank** (Elite > Veteran > Rookie)
+  2. **Missions completed** (if ranks are equal)
+
+---
+
+ Project Structure
+
+src/
+├── Model/
+│   └── Member.java
+│   └── RankedMember.java
+├── Service/
+│   └── Guild.java
+│   └── RankService.java
+├── ui/
+│    └── GuildApp.java
+├── Utility/
+│   └── ServiceDurationCalculator.java
+└── README
+
+
+
+---
+
+ Technologies
+
+- Java 17+
+- OOP Concepts: Inheritance, Encapsulation, Abstraction
+- Java Collections: `List`, `ArrayList`, `Map`, `Comparator`
+- Java Time API: `LocalDate`, `Period`
+
+---
+
+Author
+Nathan
+Aspiring Java Developer | Lifelong Learner | Code Wizard in Training
+
+
