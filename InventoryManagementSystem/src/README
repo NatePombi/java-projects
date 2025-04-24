@@ -1,0 +1,34 @@
+ Inventory Management System (Java Console App)
+
+A simple, interactive console-based inventory management system built using Java. The application allows users to:
+
+-  Add new products
+-  View all products
+- ️ Update product price or quantity
+-  Remove products
+-  View inventory in sorted order (by product name)
+
+ Project Structure
+
+InventoryManagementSystem/
+│
+├── src/
+│   ├── Main.java
+│   ├── Model/
+│   │   └── Product.java
+│   ├── UI/
+│   │   └── UserInterface.java
+│   └── Utilities/
+│       └── InventorySystem.java
+│
+├── README.md
+└── .gitignore
+
+
+Concepts Used
+    Object-Oriented Programming
+    Java Collections (TreeMap)
+    Exception Handling
+    Modular Design
+
+    
