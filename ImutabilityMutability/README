@@ -1,0 +1,65 @@
+ AvTech User Registry System
+
+A simple Java console-based application to register and manage users and their roles.
+Built to reinforce Java fundamentals including OOP, immutability, and clean architecture.
+
+---
+
+ Features
+
+- Register users with multiple roles
+  -  List all registered users
+  -  Search for users by name
+  -  Follows:
+    - Immutability principles
+    - Encapsulation and access control
+    - Defensive copying
+    - Java Collections usage
+
+---
+
+Structure
+
+AvTechUserRegistry/
+├── src/
+│   ├── Main.java
+│   ├── Model/
+│   │   └── User.java
+│   ├── Database/
+│   │   └── UserStore.java
+│   └── Service/
+│       └── UserService.java
+├── .gitignore
+└── README.md
+
+
+    Technologies Used
+
+- Java 17
+- IntelliJ IDEA (or your IDE of choice)
+- No frameworks — just pure Java
+
+---
+
+How to Run
+
+1- Open in your IDE and navigate to src/Main.java
+
+2- Run the program
+    It will open a simple terminal-based menu system to interact with.
+
+
+Sample Output:
+
+Welcome to AvTech
+1) Register
+2) List Users
+3) Find user by name
+4) Exit
+
+Enter Name:
+    Jane Doe
+Enter roles separated by a (comma):
+    Admin, HR
+
+User was successfully added!
