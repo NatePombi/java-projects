@@ -1,0 +1,50 @@
+ --Smart Streams (ListUtil Java Utilities)
+
+-A clean and well-tested utility class providing functional-style operations for working with Java `List<T>` collections. Ideal for Java learners and professionals alike.
+
+ --Features
+
+-  `filterStartsWith` – Filter strings that start with a specific character
+-  `findMax` / `findMin` – Find max/min elements using custom comparators
+-  `flattenList` – Flatten a list of lists into a single list
+-  `partitionByCondition` – Partition elements into `true`/`false` groups
+-  `filterAndCollect` – Filter elements based on a condition
+-  `transformAndCollect` – Filter, map, and sort in one step
+-  `distinctSortedFilter` – Remove duplicates, filter, and sort
+
+--Each method handles:
+- `null` input gracefully
+- empty lists
+- custom functional interfaces (like `Predicate`, `Function`, `Comparator`)
+
+--Project Structure
+
+ListUtilProject/
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── utilities/
+│   │           └── ListUtil.java
+│   └── test/
+│       └── java/
+│           └── utilities/
+│               └── ListUtilsTest.java
+├── App.java
+├── .gitignore
+└── README.md
+
+
+--Tech Stack
+-Java 17+
+-JUnit 5
+-Maven
+
+
+--How to Run
+-Clone the repo
+-Import into your IDE (IntelliJ, Eclipse, etc.)
+-Run ListUtilsTest to verify everything works
+
+--Author Nathan
+-Built with passion as part of a focused journey to master Java through real-world utility problems and test-driven development.
+
